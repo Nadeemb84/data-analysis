@@ -299,10 +299,11 @@ You can also highlight snippets of text (Bitbucket uses the excellent [Pygments]
 def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
 ```
 
-
+	```
 	#!python
 	#
 	def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 
+	```
 
 
 You can check out the source of this page to see how that's done, and make sure
