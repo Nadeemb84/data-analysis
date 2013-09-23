@@ -11,25 +11,25 @@ You can also use [Bitbucket mark up][BBmarkup] in comments, issues, and commit m
 On this page:
 
 
-* [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#span-elements)
-	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#emphasis)
+* [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-span-elements)
+	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-emphasis)
 
-	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#preformatted-code)
+	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-preformatted-code)
 
-	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#links)
+	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-links)
 
-	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#images)
+	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-images)
 
-* [Block Elements](https://bitbucket.org/tutorials/markdowndemo/overview#block-elements)
-	* [Headings](https://bitbucket.org/tutorials/markdowndemo/overview#headings)
+* [Block Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-block-elements)
+	* [Headings](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-headings)
 
-	* [Paragraphs and blockquotes](https://bitbucket.org/tutorials/markdowndemo/overview#paragraphs-and-blockquotes)
+	* [Paragraphs and blockquotes](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-paragraphs-and-blockquotes)
 
-	* [Lists](https://bitbucket.org/tutorials/markdowndemo/overview#lists)
+	* [Lists](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-lists)
 
-	* [Tables](https://bitbucket.org/tutorials/markdowndemo/overview#tables)
+	* [Tables](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-tables)
 
-	* [Code and Syntax highlighting](https://bitbucket.org/tutorials/markdowndemo/overview#code-and-syntax-highlighting)
+	* [Code and Syntax highlighting](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-code-and-syntax-highlighting)
 
 	* [Horizontal rules](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules)
 
