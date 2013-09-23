@@ -2,8 +2,9 @@ Markdown for READMEs
 ====================
 
 [Markdown][fireball] for readmes is pretty popular.  So, I've given you a demo
-here of all the markup we support.  In some cases words are taken directly from
-the Markdown docs.
+here of all the markup we support. In some cases, I copied the text entirely from the Fireball Markdown docs. 
+
+I didn't copy everything tho. For the entire docs explanation, you still need to go to the Fireball site.
 
 - - -
 
@@ -49,19 +50,37 @@ Level 2 markup uses - (dashes)
 
 - - -
 
-PARAGRAPHS
+PARAGRAPHS and BLOCKQUOTES
 ===========================
 
 A paragraph is one or more consecutive lines of text separated by one or more
 blank lines. A blank line contains nothing but spaces or tabs. Do not indent
 normal paragraphs with spaces or tabs.
 
+Markdown uses email-style > (greater than) characters for blockquoting. If you’re familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a > before every line:
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+
+
+		> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+		> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+		> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+		> 
+		> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+		> id sem consectetuer libero luctus adipiscing.
+
 - - -
 
 Lists
 =====
 
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
+Markdown supports ordered (numbered) and unordered (bulleted) lists.  List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.
 
 Form bulleted lists with any of * (asterisk), + (plus), or - (dash). You can one or any or mix of these to form a list:
 
@@ -84,7 +103,7 @@ Ordered lists require a numeric character followed by a . (period).
 		1. Item two 
 		1. Item three
     
-Notice the actual number doesn't matter. However, for readability better to use this markup:
+Notice the actual value of the number doesn't matter in the list result. However, for readability better to use this markup:
 
 		1. Item one
 		2. Item two 
