@@ -306,6 +306,10 @@ To do this, do not indent the block. Start the block with ` ``` ` three ticks. T
 
 You can also use a fence style for code.
 
+~~~~
+This is a code block, fenced-style
+~~~~
+
 	~~~~
 	This is a code block, fenced-style
 	~~~~
