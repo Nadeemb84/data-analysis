@@ -333,6 +333,10 @@ The output looks like this:
 
 -----------------------
 
+~~~~
+This is a code block, fenced-style
+~~~~
+
 
 
 [lexers]: http://pygments.org/docs/lexers/
