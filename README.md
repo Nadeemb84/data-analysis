@@ -237,12 +237,19 @@ Computer  |  $1600 | one
 Phone     |    $12 | three
 Pipe      |     $1 | eleven
 
-	Right     | Left  | Center 
-	:---------| -----:|:-----:
-	Computer  | $1600 |one
-	Phone     |   $12 |three
-	Pipe      |    $1 |eleven
+	Right     | Left   | Center 
+	---------:| :----- |:-----:
+	Computer  |  $1600 | one
+	Phone     |    $12 | three
+	Pipe      |     $1 | eleven
 
+
+You can apply span-level formatting to the content of each cell using regular Markdown syntax:
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
 
 
 - -  -
