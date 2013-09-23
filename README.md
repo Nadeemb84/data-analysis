@@ -233,9 +233,9 @@ You can specify alignment for each column by adding colons to separator lines. A
 
 Right     | Left  | Center 
 ---------:| :-----|:-----:
-Computer  | $1600 |one
-Phone     |   $12 |three
-Pipe      |    $1 |eleven
+Computer  | $1600 | one
+Phone     |   $12 | three
+Pipe      |    $1 | eleven
 
 	Right     | Left  | Center 
 	:---------| -----:|:-----:
