@@ -66,13 +66,13 @@ Markdown supports ordered (numbered) and unordered (bulleted) lists.
 Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:
 
 * Red 
-* Green 
-* Blude
++ Green 
+- Blude
 
 
 		* Red
-		* Green
-		* Blue
+		+ Green
+		- Blue
 	
     
     
