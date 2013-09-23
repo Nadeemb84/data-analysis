@@ -23,6 +23,8 @@ You can check out the source of this page to see how that's done, and make sure 
 
 Have fun!
 
+# Heading Examples
+You can create Atx-style headings by prefixing with a # (hash mark) 
 
 # Heading 1 markup =  `# Heading 1`
 
@@ -36,3 +38,7 @@ Have fun!
 
 ###### Heading 6 markup =  `###### Heading 6`
 
+You can also create Setext-style headings which have two levels.
+
+Level 1 markup use an equal sign = (equal sign)
+==============================
