@@ -304,6 +304,20 @@ def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text)
 
 To do this, do not indent the block. Start the block with ` ``` ` three ticks. Then, provide the comment with the type of syntax you are using.  There is a [the vast library of Pygment lexers][lexers]. Bitbucket accepts the 'short name' or the 'mimetype' of anything in there.
 
+You can also use a fence style for code.
+
+	~~~~
+	This is a code block, fenced-style
+	~~~~
+	
+or like this: 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.html #example-1}
+<p>paragraph <b>emphasis</b>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See [Michel Fortin's blog][extra] which was adapted for this.
+
 - - -
 
 Horizontal Rules
@@ -342,3 +356,4 @@ This is a code block, fenced-style
 [lexers]: http://pygments.org/docs/lexers/
 [fireball]: http://daringfireball.net/projects/markdown/ 
 [Pygments]: http://www.pygments.org/ 
+[Extra]: http://michelf.ca/projects/php-markdown/extra/
