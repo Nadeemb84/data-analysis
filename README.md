@@ -1,15 +1,16 @@
 Markdown for READMEs 
 ====================
 
-[fireball][Markdown] for readmes is pretty popular.  So, I've given you a demo here of all the markup we support.  In some cases words are taken directly from the Markdown docs.
+[Markdown][fireball] for readmes is pretty popular.  So, I've given you a demo
+here of all the markup we support.  In some cases words are taken directly from
+the Markdown docs.
 
+- - -
 
-- - - 
+Markdown on Bitbucket does NOT support
+================================
 
-PARAGRAPHS AND LINE BREAKS
-===========================
-
-A paragraph is one or more consecutive lines of text separated by one or more blank lines. A blank line contains nothing but spaces or tabs. Do not indent normal paragraphs with spaces or tabs.
+Please note, we don't support arbitrary HTML in Markdown, for example `<table>` tags. Instead, we use [safe mode][http://pythonhosted.org/Markdown/reference.html#safe_mode]. Safe mode requires that you replace, remove, or escape HTML tags appropriately.
 
 - - -
 
@@ -30,20 +31,38 @@ You can create Atx-style headings by prefixing with a # (hash mark)
 ###### 
 You can also create Setext-style headings which have two levels.
 
-Level 1 markup use an equal sign = (equal sign) ==============================
+Level 1 markup use an equal sign = (equal sign) 
+==============================
 
 
-	 Level 1 markup use an equal sign = (equal sign) ==============================
+	 Level 1 markup use an equal sign = (equal sign)   	 
+	 ==============================
+	 
+Level 2 markup uses - (dashes) 
+-------------
+
+
+	Level 2 markup uses - (dashes) 
+	-------------
+
 
 - - -
 
-## Syntax highlighting
-## 
-## 
-You can also highlight snippets of text (we use the excellent [Pygments][] library).
+PARAGRAPHS
+===========================
+
+A paragraph is one or more consecutive lines of text separated by one or more
+blank lines. A blank line contains nothing but spaces or tabs. Do not indent
+normal paragraphs with spaces or tabs.
 
 
+- - -
 
+Syntax highlighting
+=====================
+
+You can also highlight snippets of text (Bitbucket uses the excellent [Pygments][]
+library).
 
 Here's an example of some Python code:
 
@@ -53,9 +72,12 @@ Here's an example of some Python code:
 def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) ```
 
 
-You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
+You can check out the source of this page to see how that's done, and make sure
+to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short
+name' or the 'mimetype' of anything in there.
 
 
 
 
-[fireball]: http://daringfireball.net/projects/markdown/ [Pygments]: http://www.pygments.org/ [lexers]: http://pygments.org/docs/lexers/
+[fireball]: http://daringfireball.net/projects/markdown/ [Pygments]:
+http://www.pygments.org/ [lexers]: http://pygments.org/docs/lexers/
