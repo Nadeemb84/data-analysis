@@ -69,11 +69,11 @@ Unordered lists use asterisks, pluses, and hyphens — interchangably — as lis
 * Green
 * Blude
 
-    ```
-	* Red
-	* Green
-	* Blude
-    ```
+    
+	`* Red`
+	`* Green`
+	`* Blude`
+    
     
 
 
