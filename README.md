@@ -154,10 +154,12 @@ Lists can be embedded in lists. List items may consist of multiple paragraphs. E
 
 * Red 
 + Green 
-	* item in 
+	* dark  green 
+	* lime	
 - Blue		
 	1. Item one
-		1. item in
+		1. subitem 1
+		1. subitem 2
 	1. Item two 
 	
 	    This is is a first paragraph. 
@@ -171,8 +173,12 @@ Lists can be embedded in lists. List items may consist of multiple paragraphs. E
 	
 			* Red 
 			+ Green 
+				* dark  green 
+				* lime	
 			- Blue		
 				1. Item one
+					1. subitem 1
+					1. subitem 2
 				1. Item two 
 	
 					This is is a first paragraph. 
