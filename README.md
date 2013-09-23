@@ -39,7 +39,7 @@ Bitbucket does NOT support
 ================================
 
 Please note, we don't support arbitrary HTML in Markdown, for example `<table>` tags. Instead, we use 
-[safe mode][http://pythonhosted.org/Markdown/reference.html#safe_mode]. Safe mode requires that you replace, remove, or escape HTML tags appropriately.
+[safe mode](http://pythonhosted.org/Markdown/reference.html#safe_mode). Safe mode requires that you replace, remove, or escape HTML tags appropriately.
 
 - - -
 
