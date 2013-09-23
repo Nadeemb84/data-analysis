@@ -11,18 +11,27 @@ You can also use [Bitbucket mark up][BBmarkup] in comments, issues, and commit m
 On this page:
 
 
-Span Elements
-* Emphasis
-* Preformatted code
-* Links
-* Images
-Block Elements
-* Headings
-* Paragraphs and blockquotes
-* Lists
-* Tables
-* Syntax (Code) highlighting
-* [Horizontal rules](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules)
+* [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#span-elements)
+	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#emphasis)
+
+	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#preformatted-code)
+
+	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#links)
+
+	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#images)
+
+* [Block Elements](https://bitbucket.org/tutorials/markdowndemo/overview#block-elements)
+	* [Headings](https://bitbucket.org/tutorials/markdowndemo/overview#headings)
+
+	* [Paragraphs and blockquotes](https://bitbucket.org/tutorials/markdowndemo/overview#paragraphs-and-blockquotes)
+
+	* [Lists](https://bitbucket.org/tutorials/markdowndemo/overview#lists)
+
+	* [Tables](https://bitbucket.org/tutorials/markdowndemo/overview#tables)
+
+	* [Code and Syntax highlighting](https://bitbucket.org/tutorials/markdowndemo/overview#code-and-syntax-highlighting)
+
+	* [Horizontal rules](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules)
 
 - - -
 
