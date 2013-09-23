@@ -21,30 +21,7 @@ Please note, we don't support arbitrary HTML in Markdown, for example `<table>` 
 
 These elements occur within a line of text.  So, for example font changes or links.
 
-## Links
 
-Markdown supports inline and reference links. In both styles, the link text is delimited by [square brackets]. To create an inline link, use this syntax:
-
-	[ Text for the link ](URL)
-
-So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
-
-	So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
-
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
-
-	This is [an example][id] reference-style link.
-	
-Which gives you a link like this:
-
-This is [an example][id] reference-style link.
-	
-Elsewhere in the document, usually at the bottom of the file, you define your link label on a line by itself:
-
-	[id]: http://example.com/  "Optional Title Here"
-	
-Links can get pretty fancy, so if you want the long form version, visit the 
- official [Markdown][fireball] docs.
  
 ## Emphasis
 
@@ -91,6 +68,45 @@ is produced from:
 To include a literal backtick character within a code span, you can use multiple backticks as the opening and closing delimiters:
 
 ``There is a literal backtick (`) here.``	
+
+## Links
+
+Markdown supports inline and reference links. In both styles, the link text is delimited by [square brackets]. To create an inline link, use this syntax:
+
+	[ Text for the link ](URL)
+
+So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
+
+	So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
+
+Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+
+	This is [an example][id] reference-style link.
+	
+Which gives you a link like this:
+
+This is [an example][id] reference-style link.
+	
+Elsewhere in the document, usually at the bottom of the file, you define your link label on a line by itself:
+
+	[id]: http://example.com/  "Optional Title Here"
+	
+Links can get pretty fancy, so if you want the long form version, visit the 
+ official [Markdown][fireball] docs.
+
+## Images
+
+Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.
+
+Inline image syntax looks like this:
+
+![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
+
+![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png "Optional title")
+
+	![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
+
+	![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png "Optional title")
 	
 - - -
 
