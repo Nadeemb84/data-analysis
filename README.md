@@ -149,6 +149,22 @@ Notice the actual value of the number doesn't matter in the list result. However
 		1. Item one
 		2. Item two 
 		3. Item three
+		
+Lists can be embedded in lists. List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:
+
+* Red 
++ Green 
+- Blue		
+	1. Item one
+	1. Item two 
+	
+	    This is is a first paragraph. 
+	    
+	    * Green 
+		* Blue
+	    
+	    This is a second paragrpah.
+	1. Item three
 
 - - -
 
