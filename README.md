@@ -249,14 +249,13 @@ You can apply inline formatting (span-level changes such as fonts or links) to t
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
-| `help()`      | Display the __help__ window.     |
+| `help()`      | Display the __help__ window.   |
 | `destroy()`   | **Destroy your computer!**     |
 
 	| Function name | Description                    |
 	| ------------- | ------------------------------ |
-	| `help()`      | Display the _help_ window.     |
+	| `help()`      | Display the __help__ window.   |
 	| `destroy()`   | **Destroy your computer!**     |
-
 
 
 
@@ -264,13 +263,41 @@ You can apply inline formatting (span-level changes such as fonts or links) to t
 - -  -
 
 
-Syntax highlighting
+Syntax (Code) highlighting
 =====================
 
-You can also highlight snippets of text (Bitbucket uses the excellent [Pygments][]
-library).
+Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the code block linesare interpreted literally.  Markdown wraps a code block in both `<pre>` and `<code>` tags.
 
-Here's an example of some Python code:
+To produce a code block in Markdown, indent every line of the block by at least 4 spaces or 1 tab. For :
+
+This is a normal paragraph:
+
+    This is a code block.
+
+The code reveals the indentation.
+
+		This is a normal paragraph:
+
+			This is a code block.
+
+A code block continues until it reaches a line that is not indented (or the end of the page).
+
+Within a code block, & (ampersands) and < > (angle brackets) are automatically converted into HTML entities. This makes it very easy to include example HTML source code using Markdown — just paste it and indent it. Markdown will handle the hassle of encoding the ampersands and angle brackets. For example, this:
+
+<p>Here is an example of AppleScript:</p>
+
+	<p>Here is an example of AppleScript:</p>
+
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. For example, given this input:
+
+
+You can also highlight snippets of text (Bitbucket uses the excellent [Pygments][] library) to allow you to use code highlighting  Here's an example of some Python code:
+
+	```
+	#!python
+	#
+	def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
+	```
 
 ```
 #!python
