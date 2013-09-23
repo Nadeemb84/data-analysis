@@ -209,6 +209,7 @@ You can also embed blockquotes in a list.
 Tables
 =======
 
+
 Bitbucket does not support `<html>` so you need to use theh - (dash) and the | (pipe) symbols to construct a table. The first line contains column headers. Separate columns with the pipe symbol.
 
 The  second line must be a mandatory separator line between the headers and the content. Subsequent lines are table rows. Columns are always separated by the pipe (|) character.  For example this table:
@@ -226,10 +227,23 @@ Comes from this code:
 	Content Cell  | Content Cell
 	
 	
-First Header  | Second Header
-------------- | -------------
-* Content Cell  | > Content Cell
-* Content Cell  | > Content Cell
+You can only put simple lines in a table.
+
+You can specify alignment for each column by adding colons to separator lines. A colon at the left of the separator line, left-aligns the column. A colon on the right, right-aligns the column. Add colons to both sides to center the column is center-aligned.
+
+Right     | Left  | Center 
+:---------| -----:|:-----:
+Computer  | $1600 |one
+Phone     |   $12 |three
+Pipe      |    $1 |eleven
+
+	Right     | Left  | Center 
+	:---------| -----:|:-----:
+	Computer  | $1600 |one
+	Phone     |   $12 |three
+	Pipe      |    $1 |eleven
+
+
 
 - -  -
 
