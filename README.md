@@ -1,4 +1,4 @@
-Markdown for READMEs 
+Bitbucket Supported Markdown for READMEs, comments, and Wiki
 ====================
 
 [Markdown][fireball] for readmes is pretty popular.  So, I've given you a demo
