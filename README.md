@@ -6,6 +6,7 @@ here of all the markup we support. In some cases, I copied the doc/examples enti
 
 I didn't duplicate all the Markdown doc everything tho. For the entire docs and a deeper explanation of Markdown, you still need to go to the [Markdown][fireball] site.
 
+You can also use [Bitbucket mark up][BBmarkup] in comments, issues, and commit messages.
 
 
 - - -
@@ -416,20 +417,6 @@ Which you create with this code:
 See [Michel Fortin's blog][extra] to try out more examples of this coding style. Not everything he demos is guaranteed to work though.
 
 - - -
-# Bitbucket Markup
-
-You can reference issues:
-
-
-	issue #number
-
-issue #1
-
-	issue #1
-	
-
-
-- - -
 
 # Horizontal Rules
 
@@ -466,3 +453,4 @@ The output looks like this:
 [Pygments]: http://www.pygments.org/ 
 [Extra]: http://michelf.ca/projects/php-markdown/extra/
 [id]: http://example.com/  "Optional Title Here"
+[BBmarkup]: https://confluence.atlassian.com/x/xTAvEw
