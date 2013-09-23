@@ -416,8 +416,22 @@ Which you create with this code:
 See [Michel Fortin's blog][extra] to try out more examples of this coding style. Not everything he demos is guaranteed to work though.
 
 - - -
+# Bitbucket Markup
 
-## Horizontal Rules
+You can reference issues:
+
+
+	issue #number
+
+issue #1
+
+	issue #1
+	
+
+
+- - -
+
+# Horizontal Rules
 
 You can produce a horizontal line with any of the following codes:
 
@@ -443,9 +457,7 @@ The output looks like this:
 
 -----------------------
 
-~~~~
-This is a code block, fenced-style
-~~~~
+- - -
 
 
 
