@@ -2,9 +2,9 @@ Markdown for READMEs
 ====================
 
 [Markdown][fireball] for readmes is pretty popular.  So, I've given you a demo
-here of all the markup we support. In some cases, I copied the text entirely from the Fireball Markdown docs. 
+here of all the markup we support. In some cases, I copied the doc/examples entirely from the Fireball Markdown site. 
 
-I didn't copy everything tho. For the entire docs explanation, you still need to go to the [Markdown][fireball] site.
+I didn't duplicate all the Markdown doc everything tho. For the entire docs and a deeper explanation of Markdown, you still need to go to the [Markdown][fireball] site.
 
 
 
@@ -16,12 +16,12 @@ Bitbucket does NOT support
 Please note, we don't support arbitrary HTML in Markdown, for example `<table>` tags. Instead, we use 
 [safe mode][http://pythonhosted.org/Markdown/reference.html#safe_mode]. Safe mode requires that you replace, remove, or escape HTML tags appropriately.
 
-- - -
+
 # Span Elements
 
 These elements occur within a line of text.  So, for example font changes or links.
 
-
+- - -
  
 ## Emphasis
 
@@ -69,6 +69,8 @@ To include a literal backtick character within a code span, you can use multiple
 
 ``There is a literal backtick (`) here.``	
 
+- - -
+
 ## Links
 
 Markdown supports inline and reference links. In both styles, the link text is delimited by [square brackets]. To create an inline link, use this syntax:
@@ -94,23 +96,28 @@ Elsewhere in the document, usually at the bottom of the file, you define your li
 Links can get pretty fancy, so if you want the long form version, visit the 
  official [Markdown][fireball] docs.
 
+- - -
+
 ## Images
 
-Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.
-
-Inline image syntax looks like this:
+Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference. Images appear like this:
 
 ![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
 
-![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png "Optional title")
+
 
 	![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
 
 	![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png "Optional title")
 	
 - - -
+# Block Elements
 
-# Headings
+These are elements that are a single or multiple lines in length
+
+- - -
+
+## Headings
 You can create Atx-style headings by prefixing with a # (hash mark)
 
 # Heading 1 markup  `# Heading 1`
@@ -144,8 +151,8 @@ Level 2 markup uses - (dashes)
 
 - - -
 
-PARAGRAPHS and BLOCKQUOTES
-===========================
+## PARAGRAPHS and BLOCKQUOTES
+
 
 A paragraph is one or more consecutive lines of text separated by one or more
 blank lines. A blank line contains nothing but spaces or tabs. Do not indent
@@ -212,8 +219,7 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 
 - - -
 
-Lists
-=====
+## Lists
 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.  List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.
 
@@ -300,8 +306,8 @@ You can also embed blockquotes in a list.
 
 - - -
 
-Tables
-=======
+## Tables
+
 
 
 Bitbucket does not support `<html>` so you need to use theh - (dash) and the | (pipe) symbols to construct a table. The first line contains column headers. Separate columns with the pipe symbol.
@@ -357,8 +363,8 @@ You can apply inline formatting (span-level changes such as fonts or links) to t
 - -  -
 
 
-Syntax (Code) highlighting
-=====================
+## Syntax (Code) highlighting
+
 
 Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the code block linesare interpreted literally.  Markdown wraps a code block in both `<pre>` and `<code>` tags.
 
@@ -411,8 +417,7 @@ See [Michel Fortin's blog][extra] to try out more examples of this coding style.
 
 - - -
 
-Horizontal Rules
-====
+## Horizontal Rules
 
 You can produce a horizontal line with any of the following codes:
 
