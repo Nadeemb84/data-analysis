@@ -24,4 +24,15 @@ You can check out the source of this page to see how that's done, and make sure 
 Have fun!
 
 
-# Heading 1 done with `# Heading 1`
+# Heading 1 markup =  `# Heading 1`
+
+## Heading 2 markup =  `## Heading 2`
+
+### Heading 2 markup =  `## Heading 3`
+
+#### Heading 2 markup =  `## Heading 4`
+
+##### Heading 2 markup =  `## Heading 5`
+
+###### Heading 2 markup =  `## Heading 6`
+
