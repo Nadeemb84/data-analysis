@@ -22,7 +22,7 @@ Block Elements
 * Lists
 * Tables
 * Syntax (Code) highlighting
-* [Horizontal rules][https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules]
+* [Horizontal rules](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules)
 
 - - -
 
