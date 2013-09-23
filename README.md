@@ -70,8 +70,6 @@ Unordered lists use asterisks, pluses, and hyphens — interchangably — as lis
 * Blude
 
 	```
-		#!javascript
-
 		* Red
 		* Green
 		* Blue
