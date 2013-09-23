@@ -7,6 +7,9 @@ here of all the markup we support. In some cases, I copied the text entirely fro
 I didn't copy everything tho. For the entire docs explanation, you still need to go to the Fireball site.
 
 - - -
+Span
+
+- - -
 
 Bitbucket does NOT support
 ================================
@@ -16,7 +19,7 @@ Please note, we don't support arbitrary HTML in Markdown, for example `<table>` 
 
 - - -
 
-# Heading Examples
+# Headings
 You can create Atx-style headings by prefixing with a # (hash mark)
 
 # Heading 1 markup  `# Heading 1`
@@ -301,7 +304,37 @@ def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text)
 
 To do this, do not indent the block. Start the block with ` ``` ` three ticks. Then, provide the comment with the type of syntax you are using.  There is a [the vast library of Pygment lexers][lexers]. Bitbucket accepts the 'short name' or the 'mimetype' of anything in there.
 
+- - -
+
+Horizontal Rules
+====
+
+You can produce a horizontal line with any of the following codes:
+
+	* * *
+
+	***
+
+	*****
+
+	- - - -
+
+	-----------------------
+	
+The output looks like this:
+
+* * *
+
+***
+
+*****
+
+- - - 
+
+-----------------------
+
+
 
 [lexers]: http://pygments.org/docs/lexers/
 [fireball]: http://daringfireball.net/projects/markdown/ 
-[Pygments]: http://www.pygments.org/ [lexers]: http://pygments.org/docs/lexers/
+[Pygments]: http://www.pygments.org/ 
