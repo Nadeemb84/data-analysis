@@ -192,6 +192,12 @@ The code for these embedded lists or paragraphs is:
 		
 				1. Item three
 
+You can also embed blockquotes in a list.
+
+* Green
+> What is this?
+* Blue
+
 - - -
 
 Syntax highlighting
