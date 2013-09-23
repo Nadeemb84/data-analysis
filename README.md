@@ -25,10 +25,10 @@ You can also create Setext-style headings which have two levels.
 Level 1 markup use an equal sign = (equal sign)
 ==============================
 
-	```
+	
 	 Level 1 markup use an equal sign = (equal sign)
 	==============================
-	```
+	
 
 ## Syntax highlighting
 
