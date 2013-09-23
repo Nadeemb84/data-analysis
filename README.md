@@ -195,10 +195,28 @@ The code for these embedded lists or paragraphs is:
 You can also embed blockquotes in a list.
 
 * Green
-> What is this?
+> What is this?  It is embedded blockquote.  Mix 'em and match 'em.
 * Blue
+* Red
+
+		* Green
+		> What is this?  It is embedded blockquote.  Mix 'em and match 'em.
+		* Blue
+		* Red
 
 - - -
+
+Tables
+=======
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+
+- -  -
+
 
 Syntax highlighting
 =====================
