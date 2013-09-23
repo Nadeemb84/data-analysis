@@ -293,11 +293,11 @@ To produce a code block in Markdown, simply indent every line of the block by at
 
 You can also highlight snippets of text (Bitbucket uses the excellent [Pygments][] library) to allow you to use code highlighting  Here's an example of some Python code:
 
-	```
-	#!python
-	#
-	def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
-	```
+```
+#!python
+#
+def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
+```
 
 
 	#!python
