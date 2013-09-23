@@ -57,20 +57,25 @@ A paragraph is one or more consecutive lines of text separated by one or more
 blank lines. A blank line contains nothing but spaces or tabs. Do not indent
 normal paragraphs with spaces or tabs.
 
+This is one paragraph.
+
+This is a second.
+
+	This is one paragraph.
+
+	This is a second.
+
 Markdown uses email-style > (greater than) characters for blockquoting. If you’re familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a > before every line:
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.
 
 
-
 		> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 		> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-		> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 		> 
 		> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 		> id sem consectetuer libero luctus adipiscing.
