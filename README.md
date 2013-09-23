@@ -7,7 +7,7 @@ the Markdown docs.
 
 - - -
 
-Markdown on Bitbucket does NOT support
+Bitbucket does NOT support
 ================================
 
 Please note, we don't support arbitrary HTML in Markdown, for example `<table>` tags. Instead, we use 
@@ -55,6 +55,24 @@ PARAGRAPHS
 A paragraph is one or more consecutive lines of text separated by one or more
 blank lines. A blank line contains nothing but spaces or tabs. Do not indent
 normal paragraphs with spaces or tabs.
+
+- - -
+
+Lists
+=====
+
+Markdown supports ordered (numbered) and unordered (bulleted) lists.
+
+Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:
+
+* Red
+* Green
+* Blude
+
+	* Red
+	* Green
+	* Blude
+
 
 
 - - -
