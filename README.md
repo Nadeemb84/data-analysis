@@ -244,12 +244,21 @@ Pipe      |     $1 | eleven
 	Pipe      |     $1 | eleven
 
 
-You can apply span-level formatting to the content of each cell using regular Markdown syntax:
+You can apply inline formatting (span-level changes such as fonts or links) to the content of each cell using regular Markdown syntax:
+
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
+| `help()`      | Display the _help_ window.     |
 | `destroy()`   | **Destroy your computer!**     |
+
+	| Function name | Description                    |
+	| ------------- | ------------------------------ |
+	| `help()`      | Display the _help_ window.     |
+	| `destroy()`   | **Destroy your computer!**     |
+
+
+
 
 
 - -  -
