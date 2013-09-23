@@ -154,10 +154,10 @@ Lists can be embedded in lists. List items may consist of multiple paragraphs. E
 
 * Red 
 + Green 
-   * item in 
+	* item in 
 - Blue		
 	1. Item one
-	   1. item in
+		1. item in
 	1. Item two 
 	
 	    This is is a first paragraph. 
