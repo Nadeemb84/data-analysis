@@ -18,18 +18,18 @@ On this page:
 
 	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-links)
 
-	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-images)
+	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-images)
 
-* [Block Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-block-elements)
-	* [Headings](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-headings)
+* [Block Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-block-elements)
+	* [Headings](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-headings)
 
-	* [Paragraphs and blockquotes](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-paragraphs-and-blockquotes)
+	* [Paragraphs and blockquotes](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-paragraphs-and-blockquotes)
 
-	* [Lists](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-lists)
+	* [Lists](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-lists)
 
-	* [Tables](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-tables)
+	* [Tables](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-tables)
 
-	* [Code and Syntax highlighting](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-code-and-syntax-highlighting)
+	* [Code and Syntax highlighting](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-code-and-syntax-highlighting)
 
 	* [Horizontal rules](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules)
 
