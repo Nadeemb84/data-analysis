@@ -8,6 +8,21 @@ I didn't duplicate all the Markdown doc everything tho. For the entire docs and 
 
 You can also use [Bitbucket mark up][BBmarkup] in comments, issues, and commit messages.
 
+On this page:
+
+
+Span Elements
+* Emphasis
+* Preformatted code
+* Links
+* Images
+Block Elements
+* Headings
+* Paragraphs and blockquotes
+* Lists
+* Tables
+* Syntax (Code) highlighting
+* [Horizontal rules][https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-horizontal-rules]
 
 - - -
 
@@ -70,7 +85,6 @@ To include a literal backtick character within a code span, you can use multiple
 
 ``There is a literal backtick (`) here.``	
 
-- - -
 
 ## Links
 
@@ -97,7 +111,6 @@ Elsewhere in the document, usually at the bottom of the file, you define your li
 Links can get pretty fancy, so if you want the long form version, visit the 
  official [Markdown][fireball] docs.
 
-- - -
 
 ## Images
 
@@ -116,7 +129,7 @@ Markdown uses an image syntax that is intended to resemble the syntax for links,
 
 These are elements that are a single or multiple lines in length
 
-- - -
+
 
 ## Headings
 You can create Atx-style headings by prefixing with a # (hash mark)
@@ -150,7 +163,7 @@ Level 2 markup uses - (dashes)
 	-------------
 
 
-- - -
+
 
 ## PARAGRAPHS and BLOCKQUOTES
 
@@ -218,7 +231,7 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 	>     return shell_exec("echo $input | $markdown_script");
 	
 
-- - -
+
 
 ## Lists
 
@@ -305,7 +318,7 @@ You can also embed blockquotes in a list.
 		* Blue
 		* Red
 
-- - -
+
 
 ## Tables
 
@@ -415,6 +428,7 @@ Which you create with this code:
 	~~~~
 	
 See [Michel Fortin's blog][extra] to try out more examples of this coding style. Not everything he demos is guaranteed to work though.
+
 
 - - -
 
