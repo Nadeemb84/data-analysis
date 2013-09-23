@@ -63,20 +63,32 @@ Lists
 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
-Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:
+Form bulleted lists with any of * (asterisk), + (plus), or - (dash). You can one or any or mix of these to form a list:
 
 * Red 
 + Green 
-- Blude
+- Blue
 
 
 		* Red
 		+ Green
 		- Blue
 	
-    
-    
+Ordered lists require a numeric character followed by a . (period).
 
+1. Item one
+1. Item two 
+1. Item three
+
+		1. Item one
+		1. Item two 
+		1. Item three
+    
+Notice the actual number doesn't matter. However, for readability better to use this markup:
+
+		1. Item one
+		2. Item two 
+		3. Item three
 
 - - -
 
