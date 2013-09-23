@@ -231,11 +231,11 @@ You can only put simple lines in a table.
 
 You can specify alignment for each column by adding colons to separator lines. A colon at the left of the separator line, left-aligns the column. A colon on the right, right-aligns the column. Add colons to both sides to center the column is center-aligned.
 
-Right      | Left  | Center 
----------: |:----- |:-----:
-Computer   | $1600 | one
-Phone      |   $12 | three
-Pipe       |    $1 | eleven
+Right      | Left   |  Center 
+---------: | :----- | :-----:
+Computer   |  $1600 |  one
+Phone      |    $12 |  three
+Pipe       |     $1 |  eleven
 
 	Right     | Left  | Center 
 	:---------| -----:|:-----:
