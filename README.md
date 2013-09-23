@@ -249,7 +249,7 @@ You can apply inline formatting (span-level changes such as fonts or links) to t
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
-| `help()`      | Display the _help_ window.     |
+| `help()`      | Display the __help__ window.     |
 | `destroy()`   | **Destroy your computer!**     |
 
 	| Function name | Description                    |
