@@ -158,8 +158,7 @@ Lists can be embedded in lists. List items may consist of multiple paragraphs. E
 	* lime	
 - Blue		
 	1. Item one
-		1. subitem 1
-		1. subitem 2
+		1. subitem 1 
 	1. Item two 
 	
 	    This is is a first paragraph. 
@@ -171,6 +170,8 @@ Lists can be embedded in lists. List items may consist of multiple paragraphs. E
 	    
 	1. Item three
 	
+The code for these embedded lists or paragraphs is:
+
 			* Red 
 			+ Green 
 				* dark  green 
