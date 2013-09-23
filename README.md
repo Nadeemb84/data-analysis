@@ -299,19 +299,9 @@ You can also highlight snippets of text (Bitbucket uses the excellent [Pygments]
 def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
 ```
 
-	```
-	#!python
-	#
-	def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 
-	```
+To do this, do not indent the block. Start the block with ` ``` ` three ticks. Then, provide the comment with the type of syntax you are using.  There is a [the vast library of Pygment lexers][lexers]. Bitbucket accepts the 'short name' or the 'mimetype' of anything in there.
 
 
-You can check out the source of this page to see how that's done, and make sure
-to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short
-name' or the 'mimetype' of anything in there.
-
-
-
-
-[fireball]: http://daringfireball.net/projects/markdown/ [Pygments]:
-http://www.pygments.org/ [lexers]: http://pygments.org/docs/lexers/
+[lexers]: http://pygments.org/docs/lexers/
+[fireball]: http://daringfireball.net/projects/markdown/ 
+[Pygments]: http://www.pygments.org/ [lexers]: http://pygments.org/docs/lexers/
