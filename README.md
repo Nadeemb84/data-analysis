@@ -6,8 +6,7 @@ here of all the markup we support. In some cases, I copied the text entirely fro
 
 I didn't copy everything tho. For the entire docs explanation, you still need to go to the Fireball site.
 
-- - -
-Span
+
 
 - - -
 
@@ -16,6 +15,25 @@ Bitbucket does NOT support
 
 Please note, we don't support arbitrary HTML in Markdown, for example `<table>` tags. Instead, we use 
 [safe mode][http://pythonhosted.org/Markdown/reference.html#safe_mode]. Safe mode requires that you replace, remove, or escape HTML tags appropriately.
+
+- - -
+# Span Elements
+
+These elements occur within a line of text.  So, for example font changes or links.
+
+## Links
+
+Markdown supports inline and reference links. In both styles, the link text is delimited by [square brackets]. To create an inline link, use this syntax:
+
+	[ Text for the link ](URL)
+
+So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
+
+	So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
+
+ use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+
+ 
 
 - - -
 
@@ -310,17 +328,13 @@ You can also use a fence style for code.
 This is a code block, fenced-style
 ~~~~
 
+Which you create with this code:
+
 	~~~~
 	This is a code block, fenced-style
 	~~~~
 	
-or like this: 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.html #example-1}
-<p>paragraph <b>emphasis</b>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-See [Michel Fortin's blog][extra] which was adapted for this.
+See [Michel Fortin's blog][extra] to try out more examples of this coding style. Not everything he demos is guaranteed to work though.
 
 - - -
 
