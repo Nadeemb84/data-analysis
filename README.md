@@ -4,7 +4,7 @@ Markdown for READMEs
 [Markdown][fireball] for readmes is pretty popular.  So, I've given you a demo
 here of all the markup we support. In some cases, I copied the text entirely from the Fireball Markdown docs. 
 
-I didn't copy everything tho. For the entire docs explanation, you still need to go to the Fireball site.
+I didn't copy everything tho. For the entire docs explanation, you still need to go to the [Markdown][fireball] site.
 
 
 
@@ -31,10 +31,67 @@ So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
 
 	So an inline link to [Yahoo](http://www.yahoo.com) looks like this:
 
-This is [an example](http://example.com/ "Title") inline link.
+Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
 
+	This is [an example][id] reference-style link.
+	
+Which gives you a link like this:
+
+This is [an example][id] reference-style link.
+	
+Elsewhere in the document, usually at the bottom of the file, you define your link label on a line by itself:
+
+	[id]: http://example.com/  "Optional Title Here"
+	
+Links can get pretty fancy, so if you want the long form version, visit the 
+ official [Markdown][fireball] docs.
  
+## Emphasis
 
+Markdown treats * (asterisk) and _ (underscores) as emphasis markers. 
+
+*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+
+All are created from this:
+
+	*single asterisks*
+
+	_single underscores_
+
+	**double asterisks**
+
+	__double underscores__
+	
+You must use the same character must be used to open and close an emphasis span. Emphasis can be used in the mi*dd*le of a word.
+
+	Emphasis can be used in the mi*dd*le of a word.
+
+But if you surround an * or _ with spaces, it’ll be treated as a literal asterisk or underscore.
+
+To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:
+
+	\*this text is surrounded by literal asterisks\*
+	
+## Preformatted code
+
+To indicate a span of code, wrap it with `` ` `` (backtick). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
+
+Use the `printf()` function.
+
+is produced from:
+
+	Use the `printf()` function.
+	
+To include a literal backtick character within a code span, you can use multiple backticks as the opening and closing delimiters:
+
+``There is a literal backtick (`) here.``	
+	
 - - -
 
 # Headings
@@ -375,3 +432,4 @@ This is a code block, fenced-style
 [fireball]: http://daringfireball.net/projects/markdown/ 
 [Pygments]: http://www.pygments.org/ 
 [Extra]: http://michelf.ca/projects/php-markdown/extra/
+[id]: http://example.com/  "Optional Title Here"
