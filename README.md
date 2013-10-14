@@ -11,12 +11,12 @@ You can also use [Bitbucket mark up][BBmarkup] in comments, issues, and commit m
 On this page:
 
 
-* [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-span-elements)
-	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-emphasis)
+* [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-span-elements)
+	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-emphasis)
 
-	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-preformatted-code)
+	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-preformatted-code)
 
-	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-links)
+	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-links)
 
 	* [Images](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-images)
 
