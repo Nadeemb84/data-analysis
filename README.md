@@ -386,7 +386,7 @@ You can apply inline formatting (span-level changes such as fonts or links) to t
 - -  -
 
 
-## Syntax (Code) highlighting
+## Code and Syntax highlighting
 
 
 Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the code block linesare interpreted literally.  Markdown wraps a code block in both `<pre>` and `<code>` tags.
