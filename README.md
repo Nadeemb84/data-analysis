@@ -333,7 +333,7 @@ You can also embed blockquotes in a list.
 
 
 
-Bitbucket does not support `<html>` so you need to use theh - (dash) and the | (pipe) symbols to construct a table. The first line contains column headers. Separate columns with the pipe symbol.
+Bitbucket does not support `<html>` so you need to use the - (dash) and the | (pipe) symbols to construct a table. The first line contains column headers. Separate columns with the pipe symbol.
 
 The  second line must be a mandatory separator line between the headers and the content. Subsequent lines are table rows. Columns are always separated by the pipe (|) character.  For example this table:
 
