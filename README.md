@@ -60,6 +60,8 @@ _single underscores_
 
 __double underscores__
 
+~strike through~
+
 All are created from this:
 
 	*single asterisks*
@@ -69,6 +71,8 @@ All are created from this:
 	**double asterisks**
 
 	__double underscores__
+
+       ~strike through~
 	
 You must use the same character must be used to open and close an emphasis span. Emphasis can be used in the mi*dd*le of a word.
 
