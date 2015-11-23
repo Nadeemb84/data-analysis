@@ -331,6 +331,21 @@ You can also embed blockquotes in a list.
 
 
 
+You can also embed code blocks in a list.
+
+* Green
+        What is this?  It is embedded blockquote.  Mix 'em and match 'em.
+* Blue
+* Red
+
+		* Green
+		        What is this?  It is embedded blockquote.  Mix 'em and match 'em.
+		* Blue
+		* Red
+
+
+
+
 ## Tables
 
 
