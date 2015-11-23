@@ -335,19 +335,29 @@ You can also embed code blocks in a list.
 
 * Green
 
+    Try this code:
+
         What is this?  It is embedded code block!
+
+    Then this:
+
+        More code!
 
 * Blue
 * Red
 
-		* Green
+        * Green
 
-		        What is this?  It is embedded code block!
+            Try this code:
 
-		* Blue
-		* Red
+                What is this?  It is embedded code block!
 
+            Then this:
 
+                More code!
+
+        * Blue
+        * Red
 
 
 ## Tables
