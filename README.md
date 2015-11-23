@@ -337,7 +337,7 @@ You can also embed code blocks in a list.
 
     Try this code:
 
-        What is this?  It is embedded code block!
+        This is an embedded code block.
 
     Then this:
 
@@ -350,7 +350,7 @@ You can also embed code blocks in a list.
 
             Try this code:
 
-                What is this?  It is embedded code block!
+                This is an embedded code block.
 
             Then this:
 
