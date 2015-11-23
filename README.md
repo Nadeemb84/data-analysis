@@ -336,12 +336,14 @@ You can also embed code blocks in a list.
 * Green
 
         What is this?  It is embedded code block!
+
 * Blue
 * Red
 
 		* Green
 
 		        What is this?  It is embedded code block!
+
 		* Blue
 		* Red
 
