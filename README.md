@@ -14,6 +14,8 @@ On this page:
 * [Span Elements](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-span-elements)
 	* [Emphasis](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-emphasis)
 
+	* [Strikethrough](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-strikethrough)
+	
 	* [Preformatted code](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-preformatted-code)
 
 	* [Links](https://bitbucket.org/tutorials/markdowndemo/overview#markdown-header-links)
@@ -81,7 +83,17 @@ But if you surround an * or _ with spaces, it’ll be treated as a literal aster
 To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:
 
 	\*this text is surrounded by literal asterisks\*
-	
+
+## Strikethrough
+
+Bitbucket's Markdown parser supports strikethrough by wrapping text in `~~`:
+
+~~text that has been struckthrough~~
+
+is created from:
+
+    ~~text that has been struckthrough~~
+
 ## Preformatted code
 
 To indicate a span of code, wrap it with `` ` `` (backtick). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
