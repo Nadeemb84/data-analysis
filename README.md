@@ -343,6 +343,35 @@ You can also embed blockquotes in a list.
 
 
 
+You can also embed code blocks in a list.
+
+* Green
+
+    Try this code:
+
+        This is an embedded code block.
+
+    Then this:
+
+        More code!
+
+* Blue
+* Red
+
+        * Green
+
+            Try this code:
+
+                This is an embedded code block.
+
+            Then this:
+
+                More code!
+
+        * Blue
+        * Red
+
+
 ## Tables
 
 
